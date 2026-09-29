@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "kshitij.dual-clock",
+  "name": "Dual Clock",
+  "version": "1.2.0",
+  "author": "kshitij",
+  "description": "Second time zone clock for the bar, defaults to US Central",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Dual Clock",
+    "description": "Shows a second time zone beside the local clock",
+    "category": "Time",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
