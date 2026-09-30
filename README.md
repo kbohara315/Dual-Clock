@@ -42,6 +42,18 @@ omarchy-shell kshitij.dual-clock pickTimezone
 omarchy-shell kshitij.dual-clock copy
 ```
 
+## Remove
+
+```bash
+omarchy plugin remove kshitij.dual-clock
+```
+
+## Dependencies
+
+Only what Omarchy already ships: `date`, `timedatectl`,
+`omarchy-menu-select` (zone picker), `omarchy-clipboard-paste-text`,
+`omarchy-notification-send`. No daemons, no packages.
+
 ## How it works
 
 `BarWidget.qml` renders; `Model.js` holds the pure zone math (unit-tested —
